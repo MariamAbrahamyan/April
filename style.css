@@ -1,80 +1,99 @@
 body{
-	margin:0;
+	margin:0 auto;
 	padding:0;
 }
 .container{
+	overflow: hidden;
 	width:100%;
 	margin:0 auto;
-		background-color: #FAFBF3;
-			align:center;
+	background-color: #FAFBF3;
+	align:center;
 }
 
 .header{
-	height:100px;
+	height:50px;
 	width:1250px;
 	margin:0 auto;
 	align:center;
 }
 
 .logo{
+	padding-top:20px;
   float:left;
-	width:415px;
-	height:100px;
+	width:340px;
+	height:75px;
 position:relative;
 text-decoration: none;
 margin:0 auto;
 align:center;
-padding-left:150px;
+padding-left:70px;
 }
 
 
 .underline:hover:after {
-  width:321px;
-	right:0;
+  width:219px;
+	right:69px;
 text-decoration: none;
 }
 .underline:after {
 	content: '';
-	display: block;
 	position: absolute;
-	right:0;
+	right:69px;
 	top:0;
-	bottom: 0;
-	height: 27px;
-	margin-top:70px;
-width:0;
+	margin-top:65px;
+	width:0;
+	content
 	background: transparent;
-	transition: width 2.2s ease, background-color 2.2s ease;
-		background-image: url('designstudio.jpg');
-
+		transition: width 0.2s ease, background-color 0.2s ease;
+	border-top:0.5px solid #bdbfc1;
 }
+.logo #b{
+	text-decoration: none;
+		position: absolute;
+	color:white;
+	margin-top:52px;
+	height:16px;
+	margin-left:116px;
+}
+
+
 #links{
-	padding-right:150px;
+	padding-top:8px;
+	margin-right:70px;
 }
 
 #links a {
+	letter-spacing: 2px;
+	font-family: Futura, sans-serif;
+	font-weight: normal;
 text-decoration:none;
 color:black;
-padding:30px 10px 0 5px;
+padding:30px 30px 0 20px;
 margin:0;
 font-size:20px;
 float:right;
+width:50px;
 }
 .mainpic{
-	height:500px;
+	height:580px;
 }
-.imageslide{
-	text-decoration:none;
-	position: relative;
-	height:250px;
-	width:1300px;
+
+.imageslide > div >img {
+  width: 24.6%;
 	margin:0 auto;
-			align:center;
+	align:center;
+}
+.imageslide > div {
+	width: 100%;
+  overflow: hidden;
+	margin:0 auto;
+	align:center;
+	background-color: #FAFBF3;;
 }
 
 .seeall{
-	height:50px;
 		font-size:15px;
+		font-family: Futura, "Trebuchet MS", Arial, sans-serif;;
 		text-decoration:none;
 		color:black;
 		width:100%;
@@ -84,21 +103,31 @@ float:right;
 
 .scrolltext{
 	width:100%;
-	height:100px;
+	height:70px;
+	padding-top: 10px;
 	background-color: white;
 	position:absolute;
 	margin-top:700px;
 }
+.scrolltext p{
+	height:500px;
+	margin-left:100px;
+	margin-right:100px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 15px;
+}
 .content2 {
-	background-color: #d2d3d5;;
+	background-color: #d2d3d5;
   height:1500px;
 	position:relative;
 }
 
 
 .footer{
-	height:100px;
 	width:100%;
+	height:110px;
+	float:left;
 	background-color: #e6e7e8	;
 		margin:0 auto;
 		align-items: center;
@@ -107,18 +136,21 @@ float:right;
 .contacts p{
 	float:left;
 	margin:0 auto;
+	padding-top:10px;
 }
 .contacts{
 width:1250px;
 margin: 0 auto;
-
+	background-color: #e6e7e8	;
 }
 
 .socials{
-	padding-left:500px;
-	padding-top:18px;
+	padding-left:450px;
+	padding-top: 15px;
+		background-color: #e6e7e8	;
 }
 .socials p {
+	padding-top:10px;
 	margin: 0 auto;
 	padding-left:40px;
 }
@@ -130,79 +162,109 @@ margin: 0 auto;
 .copy p {
 	text-align: center;
 		width:100%;
-		margin:0 auto;
+			margin:0 auto;
+			padding-top:5px;
+		padding-bottom:5px;
 		background-color: #d2d3d5;
+		float:left;
+
 }
 
 /*about*/
 
-.content h2 {
+.papa h2 {
+	font-size: 24px;
+	font-family: Arial;
 	padding-top:50px;
 	width: 756px;
 	margin:0 auto;
 	align:center;
 }
-.content p {
+.papa p {
 	padding-top:25px;
 	width: 756px;
 	margin:0 auto;
 	align:center;
+	font-size: 15px;
+	font-family: Arial;
 }
-.aboutmainpic {
-		padding-left:5%;
-}
+
 
 .aboutcontent{
 	height:200px;
-	width:780px;
+	width:800px;
 	margin:0 auto;
 	align:center;
+
 }
+.aboutcontent div{
+	float: left;
+	height:180px;
+	margin:0 auto;
+}
+
 .aboutcontent ul {
 	display:inline-block;
 	margin:0 auto;
 	align:center;
-
+	font-size: 14px;
+	font-family: Arial;
 }
+
 .aboutcontent h4 {
 		display:inline-block;
-		padding-right:40px;
-		margin-left:25px;
+		padding-right:36px;
+		margin-left:10px;
+		font-size: 19px;
+		font-family: Arial;
 
 }
 .aboutcontent h2{
 	padding-top:50px;
 	width: 756px;
 	margin:0 auto;
-	align:center;
+	font-size: 24px;
+	font-family: Arial;
 }
 .aboutcontent p {
 	padding-top:25px;
 	width: 756px;
 	margin:0 auto;
 	align:center;
+	font-size: 12px;
+	font-family: Arial;
 }
 
 /*works*/
-.worksmainpic {
-	background-color: #ffffff;
-
-	padding-left:17%;
+.papa > div {
+  float: left;
+  width: 100%;
+	background-color: #FAFBF3;
 }
-.content{
-width:1300px;
-margin:0 auto;
-align:center;
+.papa > div >img {
+  width: 100%;
 }
-.workspics{
-	width:1500px;
+.content > div{
+	float: left;
+  width: 100%;
+  overflow: hidden;
+	margin:0 auto;
+	align:center;
+	background-color: #FAFBF3;
+}
+.content > div >img {
+  width: 24.6%;
 	margin:0 auto;
 	align:center;
 }
+
 /*blog*/
 .blogmainpic{
 	width:1250px;
 	margin:0 auto;
+}
+.blogmainpic > img {
+	width:30%
 }
 .blogtext{
 	float:right;
@@ -237,8 +299,9 @@ background-color: #fafbf3;
 	margin-right: 0px;
 	margin-left:50px;
 	color:gray;
-	font-size: 14px;
+	font-size: 0.8em;
 	margin-bottom:0;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 #message-text{
 	border:1px solid #e6e7e4;
