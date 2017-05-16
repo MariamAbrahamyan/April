@@ -261,6 +261,8 @@ margin: 0 auto;
 /*blog*/
 .blogmainpic{
 	width:1250px;
+	float:left;
+
 	margin:0 auto;
 }
 .blogmainpic > img {
