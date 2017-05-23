@@ -1,7 +1,28 @@
+
+ @font-face {
+   font-family: 'FuturaBT-Light';
+   src: url('../April/fonts/FuturaBT-Light.eot?#iefix') format('embedded-opentype'),
+   url('../April/fonts/FuturaBT-Light.woff') format('woff'),
+   url('../April/fonts/FuturaBT-Light.ttf') format('truetype'),
+   url('../April/fonts/FuturaBT-Light.svg#FuturaBT-Light') format('svg');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturaBT-Medium';
+  src: url('../April/fonts/FuturaBT-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../April/fonts/FuturaBT-Medium.woff') format('woff'),
+  url('../April/fonts/FuturaBT-Medium.ttf') format('truetype'),
+  url('../April/fonts/FuturaBT-Medium.svg#FuturaBT-Medium') format('svg');
+  font-weight: normal;
+   font-style: normal;
+}
 body{
 	margin:0 auto;
 	padding:0;
 }
+
 .container{
 	overflow: hidden;
 	width:100%;
@@ -59,23 +80,23 @@ text-decoration: none;
 
 #links{
 	padding-top:8px;
-	margin-right:70px;
+height:30px;
+float:right;
+margin-right:100px;
 }
 
 #links a {
-	letter-spacing: 2px;
-	font-family: Futura, sans-serif;
-	font-weight: normal;
+	letter-spacing: 1px;
 text-decoration:none;
 color:black;
-padding:30px 30px 0 20px;
-margin:0;
-font-size:20px;
-float:right;
-width:50px;
+margin-top:20px;
+margin-left:50px;
+font-size:18px;
+float:left;
+  font-family: 'FuturaBT-Light';
 }
 .mainpic{
-	height:580px;
+	height:
 }
 
 .imageslide > div >img {
@@ -93,12 +114,11 @@ width:50px;
 
 .seeall{
 		font-size:15px;
-		font-family: Futura, "Trebuchet MS", Arial, sans-serif;;
 		text-decoration:none;
 		color:black;
 		width:100%;
 		text-align: center;
-
+    font-family: 'FuturaBT-Light';
 }
 
 .scrolltext{
@@ -114,8 +134,8 @@ width:50px;
 	margin-left:100px;
 	margin-right:100px;
 	text-align: center;
-	font-family: Arial;
 	font-size: 15px;
+  font-family: 'FuturaBT-Light';
 }
 .content2 {
 	background-color: #d2d3d5;
@@ -137,6 +157,7 @@ width:50px;
 	float:left;
 	margin:0 auto;
 	padding-top:10px;
+  font-family: 'FuturaBT-Light';
 }
 .contacts{
 width:1250px;
@@ -167,73 +188,50 @@ margin: 0 auto;
 		padding-bottom:5px;
 		background-color: #d2d3d5;
 		float:left;
-
+font-family: 'FuturaBT-Light';
 }
 
 /*about*/
 
-.papa h2 {
-	font-size: 24px;
-	font-family: Arial;
-	padding-top:50px;
-	width: 756px;
-	margin:0 auto;
-	align:center;
+.abouttext{
+  margin: 0 auto;
+  width:800px;
 }
-.papa p {
+.abouttext div{
+  margin: 0 auto;
+  width:800px;
+}
+.aboutus{
+    padding-top:20px;
+}
+.aboutus ul li{
+font-family: 'FuturaBT-Light';
+
+}
+.aboutus h2 {
+	font-size: 24px;
 	padding-top:25px;
 	width: 756px;
 	margin:0 auto;
-	align:center;
+  font-family: 'FuturaBT-Medium';
+float:left;
+}
+.aboutus p {
+	padding-top:25px;
+  padding-bottom:25px;
+	width: 756px;
+	margin:0 auto;
 	font-size: 15px;
-	font-family: Arial;
+  font-family: 'FuturaBT-Light';
+padding-left: 25px;
+}
+
+.aboutus div{
+  float:left;
+  padding-bottom:50px;
 }
 
 
-.aboutcontent{
-	height:200px;
-	width:800px;
-	margin:0 auto;
-	align:center;
-
-}
-.aboutcontent div{
-	float: left;
-	height:180px;
-	margin:0 auto;
-}
-
-.aboutcontent ul {
-	display:inline-block;
-	margin:0 auto;
-	align:center;
-	font-size: 14px;
-	font-family: Arial;
-}
-
-.aboutcontent h4 {
-		display:inline-block;
-		padding-right:36px;
-		margin-left:10px;
-		font-size: 19px;
-		font-family: Arial;
-
-}
-.aboutcontent h2{
-	padding-top:50px;
-	width: 756px;
-	margin:0 auto;
-	font-size: 24px;
-	font-family: Arial;
-}
-.aboutcontent p {
-	padding-top:25px;
-	width: 756px;
-	margin:0 auto;
-	align:center;
-	font-size: 12px;
-	font-family: Arial;
-}
 
 /*works*/
 .papa > div {
@@ -262,6 +260,7 @@ margin: 0 auto;
 .blogmainpic{
 	width:1250px;
 	float:left;
+
 	margin:0 auto;
 }
 .blogmainpic > img {
@@ -273,20 +272,24 @@ margin: 0 auto;
 	height:180px;
 	width:730px;
 	margin:0 0 20px;
+  font-family: 'FuturaBT-Medium';
 }
 
 .blogtext p{
 	width:600px;
+  font-family: 'FuturaBT-Light';
 }
 
 .blogtext h6{
 	color: #999999;
+  font-family: 'FuturaBT-Light';
 }
 
 /*contacts*/
 
 .message{
   height:350px;
+
 }
 .message input {
 	margin-right: 0px;
@@ -302,7 +305,7 @@ background-color: #fafbf3;
 	color:gray;
 	font-size: 0.8em;
 	margin-bottom:0;
-	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-family: 'FuturaBT-Light';
 }
 #message-text{
 	border:1px solid #e6e7e4;
@@ -312,6 +315,7 @@ background-color: #fafbf3;
 	margin-left:50px;
 outline: 0;
 background-color: #fafbf3;
+font-family: 'FuturaBT-Light';
 }
 .minidiv{
 	margin:100px auto;
@@ -320,6 +324,7 @@ background-color: #fafbf3;
 }
 .minidiv input{
 	width:220px;
+  font-family: 'FuturaBT-Light';
 }
 .minidiv button{
 	border:none;
@@ -329,10 +334,13 @@ background-color: #fafbf3;
 	margin-left:500px;
 	font-weight: bold;
 	font-size: 14px;
+  font-family: 'FuturaBT-Medium';
 }
 
 .message-text{
 	height:80px;
 top: 50%;
+
+font-family: 'FuturaBT-Light';
 left: 50%;
 }
