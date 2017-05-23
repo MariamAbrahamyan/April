@@ -192,7 +192,9 @@ font-family: 'FuturaBT-Light';
 }
 
 /*about*/
-
+.aboutmainpic img{
+  width:100%;
+}
 .abouttext{
   margin: 0 auto;
   width:800px;
